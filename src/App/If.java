@@ -2,7 +2,11 @@ package App;
 
 public class If {
 	public static void main(String[] args) {
-		boolean cond = 1 != 9;
-		System.out.println(cond);
+		int myInt = 20;
+		if(myInt < 7) {
+			System.out.println("Great");
+		} else {
+			System.out.println("OK");
+		}
 	}
 }
