@@ -11,6 +11,8 @@ public class Inheritancw {
 		
 		car1.start();
 		car1.stop();
+		car1.windshield();
+		car1.showName();
 	}
 
 }

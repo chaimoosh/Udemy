@@ -1,7 +1,7 @@
 package Tuorial456;
 
 public class Machine {
-
+		protected String name = "Machine Type 1";
 	
 		// TODO Auto-generated method stub
 		public void start () {
