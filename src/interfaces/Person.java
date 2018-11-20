@@ -1,6 +1,6 @@
 package interfaces;
 
-public class Person {
+public class Person implements Info {
 	private String name;
 	
 	
@@ -11,5 +11,12 @@ public class Person {
 
 	public void greet () {
 		System.out.println("Hey there");
+	}
+
+
+	@Override
+	public void showInfo() {
+		// TODO Auto-generated method stub
+		System.out.println("Person name is " + name);
 	}
 }
