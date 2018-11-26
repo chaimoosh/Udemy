@@ -9,5 +9,11 @@ public class App {
 		
 		plant2.grow();
 		tree1.shedLeaves();
+		
+		doGrow(tree1);
+	}
+	
+	public static void doGrow(Plant plant) {
+		plant.grow();
 	}
 }
