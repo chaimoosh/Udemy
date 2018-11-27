@@ -23,9 +23,19 @@ public class App {
 		Sheep sheep1 = new Sheep();
 		Goat goat1 = new Goat ();
 		
+		Sheep sheep2 = goat1;
+		
 		goat1.talk();
 		sheep1.talk();
 		goat1.make();
+		sheep2.talk();
+		
+		//Sheep sheep3 = new Goat();
+		//Goat goat2 = (Goat)sheep3;
+		
+		//goat2.make();
+		
+		
 	}
 
 }
