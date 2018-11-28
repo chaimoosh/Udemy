@@ -16,7 +16,7 @@ public class App {
 		System.out.println(fruit);
 		//////// New Style ///////
 		
-		ArrayList<String> list1 = new ArrayList<String>();
+		ArrayList<String> list1 = new ArrayList<>();
 		
 		list1.add("cat");
 		list1.add("dog");
@@ -25,5 +25,9 @@ public class App {
 		String animal = list1.get(1);
 		
 		System.out.println(animal);
+		
+		//// More than 1 type argument ////
+		
+		//HashMap<Integer, String>map = new HashMap<Integer, String>();
 	}
 }
