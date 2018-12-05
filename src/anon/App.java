@@ -6,6 +6,10 @@ class Machine {
 	}
 }
 
+interface Plant {
+	public void grow ();
+}
+
 public class App {
 
 	public static void main(String[] args) {
@@ -16,7 +20,18 @@ public class App {
 			}
 		};
 		machine1.start();
+	Plant plant1 = new Plant() {
+
+		@Override
+		public void grow() {
+			// TODO Auto-generated method stub
+			System.out.println("IM growing");
+		}
 		
+	};
+	
+	plant1.grow();
+	
 	}
 
 }
